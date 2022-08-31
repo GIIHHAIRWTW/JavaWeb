@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>function形式创建自定义对象</title>
+    <script>
+        function Person(name, age){
+            this.name = name;
+            this.age = age;
+        }
+
+        var p = new Person("张三", 18);
+        p.sex = "男";   //声明sex属性并赋值成功
+        alert(p.sex);
+    </script>
+</head>
+<body>
+</body>
+</html>
