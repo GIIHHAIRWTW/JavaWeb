@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取元素节点对象</title>
+</head>
+<body>
+<input type="text" id="t1">
+<input type="checkbox" name="hobby" value="read">
+<input type="checkbox" name="hobby" value="code">
+<input type="checkbox" name="hobby" value="run">
+<input type="checkbox" name="hobby" value="sleep">
+
+<ul>
+    <li>javaee</li>
+    <li>android</li>
+    <li>ios</li>
+    <li>php</li>
+</ul>
+
+<input type="radio" name="sex" value="man" class="h1">
+<input type="radio" name="sex" value="woman" class="h1">
+<script>
+    //var t1 = document.getElementById("t1");
+    //alert(t1);
+
+    //var arr = document.getElementsByName("hobby");
+    //alert(arr.length);
+
+    //var arr = document.getElementsByTagName("li");
+    //alert(arr.length);
+
+    var arr = document.getElementsByClassName("h1");
+    alert(arr.length);
+</script>
+</body>
+</html>
