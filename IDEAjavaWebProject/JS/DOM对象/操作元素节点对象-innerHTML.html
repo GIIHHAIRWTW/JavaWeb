@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>操作元素节点对象</title>
+</head>
+<body>
+<span id="s1">今天是个好日子</span>
+<script>
+    var s1 = document.getElementById("s1");
+    alert(s1.innerHTML);
+
+    s1.innerHTML = "今天好像要下雪，";
+    s1.innerHTML += "今天气温0度";
+</script>
+</body>
+</html>
