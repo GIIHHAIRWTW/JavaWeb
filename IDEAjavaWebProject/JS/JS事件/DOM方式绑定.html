@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM方式绑定</title>
+    <script>
+        function run1() {
+            alert("加载完毕!");
+        }
+
+        // window.onload=run1;  只能绑定一个函数，不能传参
+           window.onload=function () {
+               run1();
+           }
+    </script>
+</head>
+<body>
+</body>
+</html>
