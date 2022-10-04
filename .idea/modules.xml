@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BootStrap/BootStrap.iml" filepath="$PROJECT_DIR$/BootStrap/BootStrap.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEAjavaWebProject.iml" filepath="$PROJECT_DIR$/IDEAjavaWebProject.iml" />
     </modules>
   </component>
